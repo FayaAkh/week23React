@@ -1,0 +1,15 @@
+.card{
+    display: flex;
+    justify-content:column;
+    align-items: center;
+    padding: 2rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color:#fff;
+    color: rgb(93, 103, 100);
+}
