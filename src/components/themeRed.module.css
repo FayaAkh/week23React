@@ -1,5 +1,8 @@
 .fon {
   background-color: rgb(180, 17, 49);
   color: #fff;
+}
+
+.fon:hover{
   transform:  scale(1.2) translate(0px, 30px);
 }

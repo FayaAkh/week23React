@@ -2,6 +2,7 @@ import s from './Card.module.css'
 
 
 function Card({ theme, price,speed }) {
+  console.log(s)
   return (
         <div className={`${theme.fon} ${s.card}}`}>
       <h2>Безлимитный {price}</h2>

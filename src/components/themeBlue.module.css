@@ -2,3 +2,7 @@
     background-color: aqua;
     color: #fff;
 }
+
+.fon:hover{
+    transform:  scale(1.2) translate(0px, 30px);
+}
