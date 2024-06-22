@@ -6,16 +6,16 @@ import themeBlack from '../components/themeBlack.module.css'
 import themeGreen from '../components/themeGreen.module.css'
 import {data} from '../data'
 function App() {
-  //console.log(data)
+  const themes = [themeBlue, themeGreen, themeRed, themeBlack];
+
 
   return (
     <>
     <div className='cardBox'>
-    <Card {...data[0]} theme={themeBlue} />
-    <Card {...data[1]} theme={themeGreen} />
-    <Card {...data[2]} theme={themeRed} />
-    <Card {...data[3]} theme={themeBlack} />
-    </div>
+  {data.map((item, index) => (
+    <Card key={index} {...item} theme={themes[index]} />
+  ))}
+</div>
     </>
   )
 }
